@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.body{
+    background-color: whitesmoke;
+}
+h2{
+    text-align: center;
+    color: palevioletred;
+    font-style: oblique;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    top:50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+}
+.box>div{
+    width: 70px;
+    height:60px;
+    background-color:palevioletred;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    justify-content: center;
+    border:1px solid black;
+}
+.vasu1>div,.vasu2>div{
+    font-size: 50px;
+    color:lab(from color l a b);
+    font-weight: 700;
+    
+}
+.vasu1>div:nth-child(even),.vasu2>div:nth-child(odd){
+    background-color:orange;
+}
+.vasu3>div:nth-child(even),.vasu4>div:nth-child(odd){
+    background-color:orange;
+}
+.vasu5>div:nth-child(even),.vasu6>div:nth-child(odd){
+    background-color:orange;
+}
+.vasu7>div:nth-child(even),.vasu8>div:nth-child(odd){
+    background-color:orange;
+}
+
